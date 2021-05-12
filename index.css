@@ -2,10 +2,15 @@ body, html {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     background: url(./background.jpg);
+    background-size: cover;
 }
 
 * {
     box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
 }
 
 header {
@@ -37,7 +42,6 @@ ul {
     border-top: 2px solid #009CDE;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 1rem;
 }
 
@@ -75,4 +79,12 @@ p {
 
 textarea {
     resize: none;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.middle-container {
+    flex-grow: 1;
 }
