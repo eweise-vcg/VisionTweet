@@ -1,7 +1,8 @@
-body, html {
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-    background: url(./background.jpg);
+body,
+html {
+    margin         : 0;
+    font-family    : 'Montserrat', sans-serif;
+    background     : url(./background.jpg);
     background-size: cover;
 }
 
@@ -15,8 +16,8 @@ textarea {
 
 header {
     background-color: #009CDE;
-    color: white;
-    padding: 1rem;
+    color           : white;
+    padding         : 1rem;
 }
 
 h1 {
@@ -24,31 +25,30 @@ h1 {
 }
 
 section {
-    width: 600px;
-    margin: auto;   
-    height: 100%;
-    margin-top: 1rem;
-    background: rgba(255,255,255,0.9);
+    width        : 600px;
+    margin       : auto;
+    height       : 100%;
+    margin-top   : 1rem;
+    background   : rgba(255, 255, 255, 0.9);
     border-radius: 5px;
 }
 
-
 ul {
-    margin: 0;
+    margin : 0;
     padding: 0;
 }
 
 .tweet {
-    border-top: 2px solid #009CDE;
-    display: flex;
+    border-top : 2px solid #009CDE;
+    display    : flex;
     align-items: center;
-    padding: 1rem;
+    padding    : 1rem;
 }
 
 .avatar {
     border-radius: 50%;
-    margin-right: 1rem;
-    box-shadow: 0 0 10px 2px rgba(0,0,0,0.2);
+    margin-right : 1rem;
+    box-shadow   : 0 0 10px 2px rgba(0, 0, 0, 0.2);
 }
 
 p {
@@ -57,10 +57,10 @@ p {
 
 .x-button {
     background-color: red;
-    color: white;
-    border: none;
-    padding: .5rem;
-    border-radius: 5px;
+    color           : white;
+    border          : none;
+    padding         : .5rem;
+    border-radius   : 5px;
 }
 
 .new-tweet-container {
@@ -68,13 +68,13 @@ p {
 }
 
 #btn-new-tweet {
-    color: white;
-    background: #009CDE;
-    border: none;
+    color        : white;
+    background   : #009CDE;
+    border       : none;
     border-radius: 5px;
-    padding: .5rem;
+    padding      : .5rem;
     margin-bottom: .5rem;
-    font-weight: bold;
+    font-weight  : bold;
 }
 
 textarea {
@@ -87,4 +87,57 @@ textarea {
 
 .middle-container {
     flex-grow: 1;
+}
+
+
+/*
+* Custom
+*/
+
+.login-container {
+    padding: 0.5rem;
+
+}
+
+section.login-container {
+    height  : 12rem;
+    padding : 1rem;
+    position: relative;
+    top     : 15%;
+}
+
+.login {
+    padding: 0.5rem;
+    display: flex;
+}
+
+div.login {
+    padding-left: 0rem;
+    display     : flex;
+}
+
+label.login {
+    width    : 8rem;
+    font-size: 1rem;
+    float    : left;
+}
+
+button.login {
+    color        : white;
+    background   : #009CDE;
+    border       : none;
+    border-radius: 5px;
+    margin-bottom: .5rem;
+    font-size    : 1rem;
+    font-weight  : bold;
+}
+
+#login-btn {
+    float: right;
+}
+
+input.login {
+    font-family: 'Montserrat', sans-serif;
+    font-size  : 1rem;
+    width      : 100%;
 }
